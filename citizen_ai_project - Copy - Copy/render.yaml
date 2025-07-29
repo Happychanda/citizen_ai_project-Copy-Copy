@@ -1,6 +1,6 @@
 services:
-  - type: web
-    name: citizen-ai-project
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+- type: web
+  name: citizen-ai-project
+  env: python
+  startCommand: python app.py
+buildCommand: pip install -r requirements.txt
